@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DXER UNIVERSITY</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
+
+<body>
+    <!-- -----sub HEADER---- -->
+
+
+    <section class="subheader">
+        <nav>
+            <a href="index.html" class="dxer"><img src="images/logo.png" alt=""></a>
+            <div class="nav-links" id="nav-links">
+                <i class="fa fa-times" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+
+            </div>
+            <i class="fa fa-bars" onclick="showmenu()"></i>
+        </nav>
+        <h1>CONTACT US</h1>
+
+
+
+    </section>
+
+
+    <!--------  contact US  -------->
+
+    <section class="location">
+
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d234700.85820748063!2d77.26580556290222!3d23.19934769320925!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x397c428f8fd68fbd%3A0x2155716d572d4f8!2sBhopal%2C%20Madhya%20Pradesh!5e0!3m2!1sen!2sin!4v1617301608218!5m2!1sen!2sin"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+    </section>
+
+
+    <section class="contact-us">
+        <div class="row">
+
+
+            <div class="contact-col">
+                <div>
+                    <i class="fa fa-home"></i>
+                    <span>
+                        <h5>South T.T Nagar</h5>
+                        <p>Bhopal,Madhya-Pradesh,INDIA</p>
+                    </span>
+                </div>
+
+
+            </div>
+
+
+            <div class="contact-col">
+                <div>
+                    <i class="fa fa-phone"></i>
+                    <span>
+                        <h5>+91 8394893248</h5>
+                        <p>Monday to Saturday, 10am to 6pm</p>
+                    </span>
+                </div>
+            </div>
+
+
+            <div class="contact-col">
+                <div>
+                    <i class="fa fa-envelope"></i>
+                    <span>
+                        <h5>dxerstudio@gmail.com</h5>
+                        <p>Email Us Your Queary</p>
+                    </span>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            
+            <div class="contact-col">
+
+            <form action="">
+                <input type="text" placeholder="Enter your Name" required>
+                        <input type="email" placeholder="Enter email address">
+                        <input type="text" placeholder="Enter Your Subject">
+                        <textarea rows="8" placeholder="Message"></textarea>
+                        <button type="submit" class="hero-btn red-btn">Send Message</button>
+            </form>
+            
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- --footer-- -->
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint commodi ab, vel cum molestias aspernatur modi.
+            <br> Ducim. Soluta praesentium doloribus omnis
+            magni!
+        </p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>MAde With <i class="fa fa-heart-o"></i> Dxer Studio</p>
+    </section>
+
+
+    <script>
+        var navlinks = document.getElementById("nav-links")
+        function showmenu() {
+            navlinks.style.right = "0";
+        }
+        function hidemenu() {
+            navlinks.style.right = "-300px";
+        }
+
+    </script>
+
+</body>
+
+</html>
